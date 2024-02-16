@@ -1,0 +1,41 @@
+.header{
+    padding: 10px;
+}
+
+.container{  
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.header-menu1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-comp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header{
+    background-color: black;
+}
+
+.header-link{
+    color: white;
+}

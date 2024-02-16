@@ -1,0 +1,40 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner{
+    background-image: url(/public/banner/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.df{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content{
+    padding-top: 138px;
+    padding-bottom: 170px;
+}
+
+.btn-banner{
+    background-color: #735184;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 400;
+    color: white;
+
+
+}
+
+.banner-text{
+    text-transform: uppercase;
+    font-size: 32px;
+}
