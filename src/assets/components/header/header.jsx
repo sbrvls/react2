@@ -13,7 +13,7 @@ export default function Header(){
                             <div className="header-nav">
                                 <Link to="/" className="header-link">Главная</Link> |
                                 <Link to="/catalog" className="header-link">Каталог</Link> |
-                                <Link to="https://github.com/sbrvls/react3.git" className="header-link">GitHub</Link> |
+                                <Link to="https://github.com/sbrvls/react_3.git" className="header-link">GitHub</Link> |
                             </div>
                         </div>
 
