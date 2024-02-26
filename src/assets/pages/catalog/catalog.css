@@ -1,0 +1,53 @@
+.catalog{
+    background-color: #1D1D1D;
+
+}
+
+.catalog-content{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.catalog-img{
+    width: 384px;
+    object-fit: cover;
+}
+
+.card-name{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-price{
+    font-size: 30px;
+}
+
+.card-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.catalog-card{
+    width: 384px;
+
+}
+
+.card-item{
+    background-color: black;
+    padding: 20px;
+}
+
+.catalog-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}

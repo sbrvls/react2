@@ -1,4 +1,5 @@
 import './header.css'
+import {Link} from 'react-router-dom'
 
 export default function Header(){
     return(
@@ -10,9 +11,9 @@ export default function Header(){
                         <div className="header-menu">
                             <img src="/header/logo.png" alt=''/>
                             <div className="header-nav">
-                                <a href="#" className="header-link">Главная</a> |
-                                <a href="#" className="header-link">Каталог</a> |
-                                <a href="https://github.com/sbrvls/react2.git" className="header-link">GitHub</a> |
+                                <Link to="/" className="header-link">Главная</Link> |
+                                <Link to="/catalog" className="header-link">Каталог</Link> |
+                                <Link to="https://github.com/sbrvls/react3.git" className="header-link">GitHub</Link> |
                             </div>
                         </div>
 

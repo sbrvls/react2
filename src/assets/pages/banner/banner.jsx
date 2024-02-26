@@ -1,4 +1,5 @@
 import './banner.css'
+import {Link} from 'react-router-dom'
 
 
 export default function Banner(){
@@ -10,7 +11,7 @@ export default function Banner(){
                     <div className="df">
                         <img src="/banner/logo-banner.png" alt=''/> 
                         <div className="banner-text">Бренд одежды</div>
-                        <a href="#" className="btn-banner">Перейти в категории</a>
+                        <Link to="#" className="btn-banner">Перейти в категории</Link>
                     </div>
                
                 </div>
